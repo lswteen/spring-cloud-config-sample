@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://github.com/lswteen/spring-cloud-config-sample
+

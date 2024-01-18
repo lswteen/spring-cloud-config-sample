@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.renzo.configserver.ConfigserverApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T12:08:08" hostname="lswteenui-iMac.local" time="0.452">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.renzo.configserver.ConfigserverApplicationTests" time="0.452"/>
+  <system-out><![CDATA[21:08:07.600 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.renzo.configserver.ConfigserverApplicationTests]: ConfigserverApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:08:07.638 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.renzo.configserver.ConfigserverApplication for test class com.renzo.configserver.ConfigserverApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-18T21:08:07.817+09:00  INFO 8110 --- [config] [    Test worker] c.r.c.ConfigserverApplicationTests       : Starting ConfigserverApplicationTests using Java 21.0.1 with PID 8110 (started by lswteen in /Users/lswteen/workspace/spring-cloud-config-sample)
+2024-01-18T21:08:07.817+09:00  INFO 8110 --- [config] [    Test worker] c.r.c.ConfigserverApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-01-18T21:08:08.271+09:00  INFO 8110 --- [config] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4adae981-b370-3350-aab3-d6a9ae2d7b8b
+2024-01-18T21:08:08.831+09:00  INFO 8110 --- [config] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-18T21:08:08.880+09:00  INFO 8110 --- [config] [    Test worker] c.r.c.ConfigserverApplicationTests       : Started ConfigserverApplicationTests in 1.192 seconds (process running for 1.649)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/lswteen/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
