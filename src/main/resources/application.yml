@@ -1,3 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "env, health, info, loggers"
+  endpoint:
+    refresh:
+      enabled: true
+    beans:
+      enabled: true
+
 server:
   port: 8888
 spring:
